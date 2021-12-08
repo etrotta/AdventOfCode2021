@@ -1,0 +1,14 @@
+Used:
+{6: {'e', 'd', 'b', 'c', 'a', 'f', 'g'}, 2: {'f', 'c'}, 5: {'e', 'b', 'c', 'a', 'd', 'g', 'f'}, 4: {'d', 'b', 'c', 'f'}, 3: {'f', 'c', 'a'}, 7: {'e', 'b', 'c', 'a', 'd', 'g', 'f'}})
+Unused:
+{6: set(), 2: {'e', 'b', 'a', 'd', 'g'}, 5: set(), 4: {'e', 'g', 'a'}, 3: {'e', 'b', 'g', 'd'}, 7: set()})
+Frequencies:  # How many times total each letter appears
+{'e': 4, 'b': 6, 'c': 8, 'a': 8, 'f': 9, 'g': 7, 'd': 7})
+
+Frequency 9 = f
+Frequency 4 = e
+Frequency 6 = b
+In {Size 2} AND NOT Frequency 9 = c
+Frequency 8 AND NOT In {Size 2} = a
+Frequency 7 AND In {Size 4} AND NOT In {Size 3} = d
+Frequency 7 AND In {Size 4} AND In {Size 3} = g
