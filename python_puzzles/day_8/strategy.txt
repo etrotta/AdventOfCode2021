@@ -1,6 +1,6 @@
-Used:
+Used:  # letters used by each <size> of input
 {6: {'e', 'd', 'b', 'c', 'a', 'f', 'g'}, 2: {'f', 'c'}, 5: {'e', 'b', 'c', 'a', 'd', 'g', 'f'}, 4: {'d', 'b', 'c', 'f'}, 3: {'f', 'c', 'a'}, 7: {'e', 'b', 'c', 'a', 'd', 'g', 'f'}})
-Unused:
+Unused:  # letters no used by each <size> of input
 {6: set(), 2: {'e', 'b', 'a', 'd', 'g'}, 5: set(), 4: {'e', 'g', 'a'}, 3: {'e', 'b', 'g', 'd'}, 7: set()})
 Frequencies:  # How many times total each letter appears
 {'e': 4, 'b': 6, 'c': 8, 'a': 8, 'f': 9, 'g': 7, 'd': 7})
