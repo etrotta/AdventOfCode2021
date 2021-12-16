@@ -1,0 +1,26 @@
+Every package starts with three bits for the Version ID
+Every package starts with three bits for the Type ID
+
+ID 4: Literal Value
+    Split into groups of Five Bits
+    The leading number indicates whenever to continue or not
+        1 = continue
+        0 = last group
+    The actual Value are the Four other bits
+    (Add all Values together before converting)
+
+ID != 4: Operators
+    One-Bit Length Mode:
+        0:
+            Length Value contains 15 Bits
+            Length Value represents the <Total Length in Bits> of the sub-packages
+
+        1:
+            Length Value contains 11 Bits
+            Length Value represents the <Number of Sub-packages> contained
+
+
+
+
+
+Ignore zeros after the very last group
